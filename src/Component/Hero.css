@@ -1,0 +1,54 @@
+#hero {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .slide {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 80px;
+  }
+  
+  #picture {
+    width: 100%;
+    max-width: 1100px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  
+  #photomain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .photos {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 400px;
+  }
+  
+  .photos img {
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+  .photos h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+  }
+  
+  .photos p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  

@@ -1,0 +1,92 @@
+/* Nav.css */
+
+#mai {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 97%; /* Full width of the viewport */
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #logo img {
+    width: 150px;
+  }
+  
+  #list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  #list li {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #list li:hover {
+    color: #f00;
+  }
+  
+  #search {
+    display: flex;
+    align-items: center;
+  }
+  
+  #search img.searchlogo {
+    width: 20px;
+    margin-right: 10px;
+  }
+  
+  #input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .searchButton {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .searchButton:hover {
+    background-color: #c00;
+  }
+  
+  #profile {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  #profile img.pro {
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .loginButton {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #900;
+  }
+  
